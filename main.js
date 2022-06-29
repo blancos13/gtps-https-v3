@@ -59,7 +59,7 @@ app.get("/growtopia/server_data.php", limiter, (req, res) => {
 
 // don't accept all method
 app.use((req, res) => {
-  res.status(200).send(pack).end();
+  res.destroy().end();
 });
 server.listen(port, () => {
   console.log(`Server is listening on https://127.0.0.1:${port}`);
