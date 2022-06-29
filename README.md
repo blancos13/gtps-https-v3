@@ -1,4 +1,8 @@
-# gtps-https-v2
+# gtps-https-v3
 gtps https node.js version 
 
-usage : node main.js
+usage : 
+
+npm install
+
+node main.js
